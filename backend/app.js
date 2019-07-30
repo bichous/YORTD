@@ -28,7 +28,7 @@ const app = express();
 
 app.use(cors({
     credentials: true,
-    origin: ['http://localhost:3001', 'https://awesome-kalam-153c4a.netlify.com']
+    origin: ['http://localhost:3001', process.env.FRONT]
 }))
 
 app.use(passport.initialize())
