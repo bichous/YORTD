@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="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" CondicionesDePago="AL CONTADO" Descuento="0.00" Fecha="2019-06-14T13:48:57" Folio="015827" FormaPago="99" LugarExpedicion="54030" MetodoPago="PUE" Moneda="MXN" NoCertificado="00001000000404265683" Sello="IE4YkMNj2R2QRUQGrjdccWoTMOWAgT7k7nFYRGMPHsVi3CD+2mAePNuLDk+h2+2zxvzBA3Hyqo+kbT0N4djxD4RGYwqqX582RbUabkkB8EI/D925O84Se8k2fSCRMlKEPmYSyY+cdy13z5l4EsBKhhKSfrXoefi9x0KnD0uAEb9bwShycdJGdkG1G7M4yrluS6udSuGkXwnHE9CES8UOnB5+E/NW8sQSFDV9UMfGbpQVYLeEY+Vhj2fExtQDAtgLN7+gbzRjg4/7j4AOJui1z6MRIH4kxrkKl1+/6KCc4C2tEwTdTzty1NOZK/OCcUqHlHIIgF/KgQDetdv5pLQBjw==" Serie="EPP" SubTotal="24784.80" TipoCambio="1" TipoDeComprobante="I" Total="28750.38" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+  <cfdi:Emisor Nombre="IMPORTACIONES ALTIVA, S.A. DE C.V." RegimenFiscal="601" Rfc="IAL980525JM8" />
+  <cfdi:Receptor Nombre="LUPERCIO CASTILLO EDUARDO CESAR" Rfc="LUCE730318P23" UsoCFDI="G01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="6" ClaveProdServ="52141535" ClaveUnidad="H87" Descripcion="PARRILLA ELECTRCA DOBLE" Descuento="0.00" Importe="1029.36" NoIdentificacion="HY2000A" Unidad="PZ" ValorUnitario="171.56">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1029.36" Importe="164.70" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="4" ClaveProdServ="52141500" ClaveUnidad="H87" Descripcion="PALOMITERO" Descuento="0.00" Importe="1375.88" NoIdentificacion="RC-1009" Unidad="PZ" ValorUnitario="343.97">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1375.88" Importe="220.14" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="4" ClaveProdServ="52141500" ClaveUnidad="H87" Descripcion="FUENTE DE CHOCOLATE 400G" Descuento="0.00" Importe="1375.88" NoIdentificacion="RC-17" Unidad="PZ" ValorUnitario="343.97">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1375.88" Importe="220.14" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2" ClaveProdServ="52141524" ClaveUnidad="H87" Descripcion="PROCESADOR DE ALIMENTOS" Descuento="0.00" Importe="1636.22" NoIdentificacion="RC-3198" Unidad="PZ" ValorUnitario="818.11">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1636.22" Importe="261.80" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="32" ClaveProdServ="52141535" ClaveUnidad="H87" Descripcion="CREPERA" Descuento="0.00" Importe="11007.04" NoIdentificacion="RC-603" Unidad="PZ" ValorUnitario="343.97">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="11007.04" Importe="1761.13" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="6" ClaveProdServ="52141511" ClaveUnidad="H87" Descripcion="EXPRIMIDOR DE JUGOS" Descuento="0.00" Importe="4391.40" NoIdentificacion="RC-618D" Unidad="PZ" ValorUnitario="731.9">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="4391.40" Importe="702.62" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="6" ClaveProdServ="52141511" ClaveUnidad="H87" Descripcion="EXPRIMIDOR DE CITRICOS" Descuento="0.00" Importe="1112.10" NoIdentificacion="RC-8005W" Unidad="PZ" ValorUnitario="185.35">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1112.10" Importe="177.94" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="4" ClaveProdServ="52141500" ClaveUnidad="H87" Descripcion="FUENTE DE CHOCOLATE" Descuento="0.00" Importe="1996.56" NoIdentificacion="RC-CF672B" Unidad="PZ" ValorUnitario="499.14">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1996.56" Importe="319.45" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2" ClaveProdServ="52141521" ClaveUnidad="H87" Descripcion="HORNO TOSTADO 9 LITROS" Descuento="0.00" Importe="860.36" NoIdentificacion="RC09D1" Unidad="PZ" ValorUnitario="430.18">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="860.36" Importe="137.66" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="3965.58">
+    <cfdi:Traslados>
+      <cfdi:Traslado Importe="3965.58" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" FechaTimbrado="2019-06-14T13:50:11" NoCertificadoSAT="00001000000405148267" RfcProvCertif="SEF100616AD2" SelloCFD="IE4YkMNj2R2QRUQGrjdccWoTMOWAgT7k7nFYRGMPHsVi3CD+2mAePNuLDk+h2+2zxvzBA3Hyqo+kbT0N4djxD4RGYwqqX582RbUabkkB8EI/D925O84Se8k2fSCRMlKEPmYSyY+cdy13z5l4EsBKhhKSfrXoefi9x0KnD0uAEb9bwShycdJGdkG1G7M4yrluS6udSuGkXwnHE9CES8UOnB5+E/NW8sQSFDV9UMfGbpQVYLeEY+Vhj2fExtQDAtgLN7+gbzRjg4/7j4AOJui1z6MRIH4kxrkKl1+/6KCc4C2tEwTdTzty1NOZK/OCcUqHlHIIgF/KgQDetdv5pLQBjw==" SelloSAT="N/KSUZ4xdqHEHcoT2tvtVi5rzwjsXWhgRTyJMVcx2hxStppV2EeuL8zz4H425q4WkJa/Gi12oSyTxBUxeWpPvWLrFx7/g2W1fOmqq7G6B3TgwPxavUcevfGTnQQQQzWzCSTGRN4Ozc4ep6UMuhIngnG3VE+Bv6gUBl77KUUE1Aqb4gyS4XW10ERqPZCsGNYhBgANIKMkR9Ar7iwGHs0XjYVLuU5sSPdZjIoaZhEIvXnq6r5FpUqXhT3W+Ou6osvxoeieCzSjRBNaseXoOhQ9CjfAo1vgGMY4KiIlkEh8Yjs/UIW4bMRVBprJPnIpntO/lKtjK3up0VjRBVxNXJjc3g==" UUID="52F158AF-9FA0-49EF-80CE-9B9330D01534" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" /></cfdi:Complemento></cfdi:Comprobante>
