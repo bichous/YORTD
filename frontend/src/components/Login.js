@@ -1,6 +1,7 @@
 import React from 'react'
 import useForm from '../hooks/useForm'
 import AuthService from '../services/auth'
+import {Button} from 'antd'
 
 function Login(props) {
 
@@ -24,15 +25,22 @@ function Login(props) {
   }
 
   return (
-    <main>
-        <div className="login">
+    <div className="bigcontainer">
+        <div className="containerLeftLogin">
+         <div className="scriptLogin">
          <h2>Login</h2>
-         <input type="email" name="email" onChange={e => handleInputs(e)} />
-         <input type="password" name="password" onChange={e => handleInputs(e)} />
-         <button onClick={handleLogin}>Login</button>
+         </div>
+         <div className="inputsLogin">
+          <input type="email" name="email" placeholder="E-mail" onChange={e => handleInputs(e)} />
+          <input type="password" name="password" placeholder="Password" onChange={e => handleInputs(e)} />
+         </div>
+         <div className="buttonLogin">
+         <Button onClick={handleLogin}>Login</Button>
+         </div>
+         <div className="containerRightLoginCerdito"></div>
+         <div className="containerRightLoginImg"></div>
         </div>
-      <div></div>
-    </main>
+    </div>
   )
 
 }

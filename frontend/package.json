@@ -18,6 +18,10 @@
         "postbuild": "react-snap",
         "eject": "react-scripts eject"
     },
+    "react-snap": {
+        "inlinecss": true,
+        "skipThirdPartyRequest": true
+    },
     "eslintConfig": {
         "extends": "react-app"
     },

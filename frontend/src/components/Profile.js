@@ -22,32 +22,33 @@ function Profile(props) {
   }
 
   return (
-    <main>
-      <div>
-        <div className="profileContainer">
-         <div className='foto'>
+    
+      <div className="bigContainerP">
+        <div className="containerLefthProfile">
+         <div className='photoProfile'>
           <img width="40%" height="auto" src="/img/user.png" alt=""/>
-          <div className="buttons">
+          <div className="buttonsProfile">
           <NavLink to={`/profile/edit/${user._id}`}>
-          <Button>Edit</Button>
+          <Button className="btn">Edit</Button>
           </NavLink>
-          <Button onClick={handleLogout}>Logout</Button>
+          <Button className="btn" onClick={handleLogout}>Logout</Button>
           </div>
          </div>
-         <div className='datos'>
+        </div>
+        <div className='containerRightProfile'>
            <label>Nombre: <h3>{user.name}</h3></label>
            <label>Apellido Paterno: <h3>{user.aPaterno}</h3></label>
            <label>Apellido Materno: <h3>{user.aMaterno}</h3></label>
            <label>RFC: <h3>{user.rfc}</h3></label>
            <label>CIEC: <h3>{user.ciec}</h3></label>
            <label>Email: <h3>{user.email}</h3></label>
+           <div className="buttonsProfileD">
            <NavLink to={'/calculate'}>
-             <Button>Calcular Impuestos</Button>
-           </NavLink>      
+             <Button>Subir Facturas</Button>
+           </NavLink> </div>     
          </div>
-        </div>
       </div>
-    </main>
+   
   )
 
 }

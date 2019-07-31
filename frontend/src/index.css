@@ -9,11 +9,71 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.foto {
-    width: 35vw;
+.bigContainer {
+    width: 100vw;
+    height: 100vw;
+    position: relative;
+    align-content: center;
+}
+
+.landingHomeLeft {
+    width: 40vw;
+    height: 80vh;
+    background-color: rgba(46, 49, 146, 0.65);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    z-index: 1;
+}
+
+.landingHomeRight {
+    width: 53vw;
+    height: 50vh;
+    display: flex;
+    background-image: url('/img/contable.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    position: absolute;
+    left: 46%;
+    top: 8%;
+}
+
+.buttonsHome {
+    width: 300px;
+    height: 300px;
+    margin-top: 80px;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: flex-start; */
+    /* margin-bottom: 50px;
+    padding: 30px; */
+    align-items: space-between;
+    text-align: center;
+}
+
+.btn {
+    margin: 2%;
+}
+
+.buttons {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 30px;
+}
+
+.script {
+    width: 39vw;
     height: 60vh;
-    margin-left: 10px;
-    border: 1px solid black;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -22,25 +82,186 @@ code {
     text-align: center;
 }
 
-.profileContainer {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    justify-items: auto;
-    align-content: center;
-    align-items: center;
+.script h3 {
+    color: aliceblue;
 }
 
-.datos {
-    width: 55vw;
-    height: 40vh;
-    margin-right: 10px;
+.script h1 {
+    color: rgb(45, 171, 102);
+    font-size: 500%;
+}
+
+.containerRightSignup {
+    width: 40vw;
+    height: 60vh;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    position: absolute;
+    left: 52%;
+    top: 20%;
+}
+
+.containerRightSignup input {
+    margin: 2%;
+}
+
+.containerRightSignup input[type=text],
+[type=password],
+[type=email] {
+    width: 40vw;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid green;
+}
+
+.buttonSignup {
+    width: 40vw;
+    height: 5vh;
+    margin-top: 2%;
+    align-items: space-between;
+    text-align: center;
+}
+
+.containerLefthSignup {
+    width: 50vw;
+    height: 69vh;
+    background-color: rgba(46, 49, 146, 0.65);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    z-index: 1;
+}
+
+.containerLefthSignupImg {
+    width: 50vw;
+    height: 69vh;
+    background-image: url('/img/calcuymouse.jpg');
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+}
+
+.scriptSignup {
+    width: 39vw;
+    height: 60vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.scriptSignup h1,
+h2 {
+    color: aliceblue;
+}
+
+.scriptSignup h1 {
+    font-size: 500%;
+}
+
+.containerLeftLogin {
+    width: 40vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 2%;
+    top: 20%;
+}
+
+.containerLeftLogin input {
+    margin: 3%;
+    width: 30vw;
+}
+
+.containerLeftLogin input[type=text],
+[type=password],
+[type=email] {
+    width: 40vw;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid green;
+}
+
+.scriptLogin {
+    width: 40vw;
+    height: 5vh;
+    margin-top: 10%;
+    align-items: space-between;
+    text-align: center;
+    justify-items: center;
+    font-size: 300%;
+}
+
+.scriptLogin h2 {
+    color: #2E3192
+}
+
+.inputsLogin {
+    width: 40vw;
+    height: 5vh;
+    margin-top: 10%;
+    align-items: space-between;
+    text-align: center;
+    justify-items: center
+}
+
+.buttonLogin {
+    width: 40vw;
+    height: 5vh;
+    margin-top: 20%;
+    align-items: space-between;
+    text-align: center;
+    justify-items: center
+}
+
+.containerRightLoginImg {
+    width: 60vw;
+    height: 60vh;
+    background-image: url('/img/lentesylibros.jpg');
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    position: absolute;
+    left: 100%;
+}
+
+.containerRightLoginCerdito {
+    width: 25vw;
+    height: 60vh;
+    background-image: url('/img/logoyortd.png');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 125%;
+    z-index: 1;
 }
 
 .updateDatos {
@@ -56,10 +277,66 @@ code {
     text-align: center;
 }
 
-.buttons {
-    width: 200px;
+.bigContainerP {
+    width: 100vw;
+    height: 100vw;
+    background-color: rgba(41, 171, 226, 0.5);
+    position: relative;
+    align-content: center;
+}
+
+.containerLefthProfile {
+    width: 50vw;
+    height: 69vh;
     display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
     justify-content: space-between;
-    margin-bottom: 15px;
-    padding: 30px;
+    text-align: center;
+    position: absolute;
+    top: 8%;
+}
+
+.photoProfile {
+    width: 30vw;
+    height: 30vh;
+    margin-top: 10%;
+    align-items: space-between;
+    text-align: center;
+    justify-items: center
+}
+
+.buttonsProfile {
+    width: 30vw;
+    height: 5vh;
+    margin-top: 10%;
+    align-items: space-between;
+    text-align: center;
+    justify-items: center
+}
+
+.buttonsProfileD {
+    width: 30vw;
+    height: 5vh;
+    margin-top: 8%;
+    align-items: space-between;
+    text-align: center;
+    justify-items: center
+}
+
+.containerRightProfile {
+    width: 40vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 52%;
+    top: 10%;
+}
+
+.containerRightProfile label {
+    border-bottom: 1px solid green;
+    margin: 2%;
 }
