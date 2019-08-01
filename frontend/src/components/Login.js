@@ -8,14 +8,10 @@ function Login(props) {
   const authservice = new AuthService()
   const [form, handleInputs] = useForm()
 
-  // const loggedUser = localStorage.getItem("loggedUser")
-  // if (loggedUser) return props.history.push('/profile')
-
 
   const handleLogin = () => {
     authservice.login(form)
     .then(response => {
-    console.log(response.data)
     localStorage.setItem("loggedUser", JSON.stringify(response.data.user))
     props.history.push('/profile')
     })

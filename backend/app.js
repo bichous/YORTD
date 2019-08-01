@@ -28,7 +28,7 @@ const app = express();
 
 app.use(cors({
     credentials: true,
-    origin: ['http://localhost:3000', process.env.FRONT]
+    origin: ['http://localhost:3001', process.env.FRONT]
 }))
 
 app.use(passport.initialize())

@@ -8,12 +8,11 @@ function Profile(props) {
 
   const authservice = new AuthService()
   const [user] = useState(JSON.parse(localStorage.getItem("loggedUser")))
-  console.log(user)
+  
 
   const handleLogout = () => {
     authservice.logout()
     .then(response => {
-      console.log(response)
       props.history.push('/')
     })
     .catch(err => {
@@ -35,17 +34,20 @@ function Profile(props) {
           </div>
          </div>
         </div>
-        <div className='containerRightProfile'>
-           <label>Nombre: <h3>{user.name}</h3></label>
+        <div className="containerMidprofile">
+        <label>Nombre: <h3>{user.name}</h3></label>
            <label>Apellido Paterno: <h3>{user.aPaterno}</h3></label>
            <label>Apellido Materno: <h3>{user.aMaterno}</h3></label>
            <label>RFC: <h3>{user.rfc}</h3></label>
            <label>CIEC: <h3>{user.ciec}</h3></label>
            <label>Email: <h3>{user.email}</h3></label>
+        </div>
+        <div className='containerRightProfile'>
            <div className="buttonsProfileD">
            <NavLink to={'/calculate'}>
              <Button>Subir Facturas</Button>
-           </NavLink> </div>     
+           </NavLink> 
+           </div>     
          </div>
       </div>
    

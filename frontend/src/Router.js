@@ -5,6 +5,7 @@ import Signup from './components/Signup'
 import Login from './components/Login'
 import Profile from './components/Profile'
 import Edit from './components/Edit'
+import Calculate from './components/Calculate';
 
 
 
@@ -16,6 +17,7 @@ const Router = () => (
       <Route exact path="/login" component={Login} />
       <Route exact path="/profile" component={Profile} />
       <Route exact path="/profile/edit/:id" component={Edit} />
+      <Route exact path="/calculate" component={Calculate} />
     </Switch>
   </BrowserRouter>
 )

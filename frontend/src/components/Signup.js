@@ -12,7 +12,6 @@ function Signup(props) {
     authservice.signup(form)
     .then(response => {
       props.history.push('/login')
-      console.log(response.data)
     })
     .catch(err => {
       console.log(err.response)

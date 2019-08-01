@@ -1,5 +1,6 @@
 import axios from 'axios'
-const baseURL = 'https://yortd.herokuapp.com'
+// const baseURL = 'https://yortd.herokuapp.com'
+const baseURL = 'http://localhost:3000'
 
 class AuthService {
     constructor() {
@@ -23,6 +24,14 @@ class AuthService {
 
     edit(data, id) {
         return this.service.patch(`/profile/edit/${id}`, data)
+    }
+
+    facturitasEmitidas() {
+        return this.service.get('/facturitasemitidas')
+    }
+
+    facturitasRecibidas() {
+        return this.service.get('/facturitasrecibidas')
     }
 
     // upload(data) {

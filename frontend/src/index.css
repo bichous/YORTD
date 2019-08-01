@@ -286,8 +286,9 @@ h2 {
 }
 
 .containerLefthProfile {
-    width: 50vw;
-    height: 69vh;
+    width: 33vw;
+    height: 50vh;
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -325,18 +326,55 @@ h2 {
     justify-items: center
 }
 
-.containerRightProfile {
+.containerMidprofile {
     width: 40vw;
     height: 60vh;
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     position: absolute;
-    left: 52%;
-    top: 10%;
+    left: 34%;
+    top: 8%;
 }
 
-.containerRightProfile label {
+.containerMidprofile label {
     border-bottom: 1px solid green;
     margin: 2%;
+}
+
+.containerRightProfile {
+    width: 20vw;
+    height: 30vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: absolute;
+    left: 75%;
+    top: 8%;
+}
+
+.containerMidCalculate {
+    width: 20vw;
+    height: 60vh;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    position: absolute;
+    left: 40%;
+    top: 8%;
+}
+
+.containerMidCalculate p {
+    display: flex;
+    justify-content: center;
+}
+
+.containerMidCalculate .buttons {
+    display: flex;
+    justify-content: center;
+    margin-left: 14%;
 }
