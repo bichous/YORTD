@@ -22,8 +22,8 @@ function Signup(props) {
     <div className="bigcontainer">
       <div className="containerLefthSignup">
         <div className="scriptSignup">
-        <h1>¿Sabias que?</h1>
-        <h2>Los programadores de esta pagina no han dormido bien</h2>
+        <h1>¿Sabías que?</h1>
+        <h2>Los programadores de esta página no han dormido bien</h2>
         </div>
       </div>
       <div className="containerLefthSignupImg"></div>

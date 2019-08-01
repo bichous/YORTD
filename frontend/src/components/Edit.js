@@ -26,16 +26,19 @@ function Edit(props) {
   }
 
   return (
-    <main>
-      <div className="profileContainer">
-        <div className='foto'>
+    
+      <div className="bigContainer">
+        <div className='containerLefthProfile'>
         <img width="50%" height="auto" src="/img/user.png" alt=""/>
         <div width="50%">
         <input type="file"></input>
         </div>
         </div>
-        <div className='updateDatos'>
+        <div className='containerRightEdit'>
+        <div className="scriptEdit">
         <h2>Update</h2>
+        </div>
+        <div className="inputsEdit">
         <input type="text" name="name" placeholder="Nombre" onChange={e => handleInputs(e)} />
         <input type="text" name="aPaterno" placeholder="Apellido Paterno" onChange={e => handleInputs(e)} />
         <input type="text" name="aMaterno" placeholder="Apellido Materno" onChange={e => handleInputs(e)} />
@@ -43,14 +46,18 @@ function Edit(props) {
         <input type="password" name="ciec" placeholder="CIEC" onChange={e => handleInputs(e)} />
         <input type="email" name="email" placeholder="email" onChange={e => handleInputs(e)} />
         <input type="password" name="password" placeholder="Contraseña" onChange={e => handleInputs(e)} />
-        <div className="buttons">
+        </div>
+        <div className="buttonsEdit">
         <Button onClick={handleEdit}>Save</Button>
         <Button onClick={goBack}>Back</Button>
         </div>
         </div>
+        <div className="containerRightRightEdit">
+          <img src="/img/logoyortd.png" alt=""/>
+        </div>
 
       </div>
-    </main>
+    
   )
 }
 

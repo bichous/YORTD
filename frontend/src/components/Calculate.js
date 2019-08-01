@@ -1,21 +1,20 @@
 import React, {useState, useEffect}from 'react'
 import AuthService from '../services/auth'
-import useForm from '../hooks/useForm'
 import {Button} from 'antd'
 
 
 
 const Calculate =(props) => {
   
-  const authservice = new AuthService()
-  const [form, handleInputs] = useForm()
+  // const authservice = new AuthService()
   const [facturita, setFacturita] = useState([])
   const [facturita2, setFacturitaR] = useState([])
 
 
-  const [user] = useState(JSON.parse(localStorage.getItem("loggedUser")))
+  
 
   useEffect(()=>{
+    const authservice = new AuthService()
     authservice
     .facturitasEmitidas()
     .then(({data}) => {
@@ -29,6 +28,7 @@ const Calculate =(props) => {
   },[])
   
   useEffect(()=>{
+    const authservice = new AuthService()
     authservice
     .facturitasRecibidas()
     .then(({data}) => {

@@ -45,9 +45,11 @@ function Profile(props) {
         <div className='containerRightProfile'>
            <div className="buttonsProfileD">
            <NavLink to={'/calculate'}>
-             <Button>Subir Facturas</Button>
+             <Button className="btn">Calcular Impuestos</Button>
            </NavLink> 
-           </div>     
+           <Button className="btn">Subir Facturas</Button>
+           </div> 
+               
          </div>
       </div>
    

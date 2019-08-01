@@ -12,7 +12,7 @@ function Home() {
             <h1>¿YORTD?</h1>
             <h3>YORT - Your Taxes Done, es una aplicación Web, que <br/>
             ayuda a personas físicas que se encuentran bajo el <br/>
-            regimen de HONORARIOS y/o ACTIVIDAD EMPRESARIAL<br/>
+            régimen de HONORARIOS y/o ACTIVIDAD EMPRESARIAL<br/>
             a saber cuanto impuesto tienen que pagar cada mes.
             </h3>
           </div>

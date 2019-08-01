@@ -264,23 +264,9 @@ h2 {
     z-index: 1;
 }
 
-.updateDatos {
-    width: 60vw;
-    height: 60vh;
-    margin-right: 10px;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-between;
-    text-align: center;
-}
-
 .bigContainerP {
     width: 100vw;
     height: 100vw;
-    background-color: rgba(41, 171, 226, 0.5);
     position: relative;
     align-content: center;
 }
@@ -288,7 +274,6 @@ h2 {
 .containerLefthProfile {
     width: 33vw;
     height: 50vh;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -319,17 +304,17 @@ h2 {
 
 .buttonsProfileD {
     width: 30vw;
-    height: 5vh;
-    margin-top: 8%;
+    height: 10vh;
+    margin-top: 10%;
     align-items: space-between;
     text-align: center;
-    justify-items: center
+    justify-items: center;
+    margin: 2%;
 }
 
 .containerMidprofile {
     width: 40vw;
-    height: 60vh;
-    border: 1px solid black;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -346,7 +331,6 @@ h2 {
 .containerRightProfile {
     width: 20vw;
     height: 30vh;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -358,7 +342,6 @@ h2 {
 .containerMidCalculate {
     width: 20vw;
     height: 60vh;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -377,4 +360,72 @@ h2 {
     display: flex;
     justify-content: center;
     margin-left: 14%;
+}
+
+.containerRightEdit {
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 28%;
+    top: 5%;
+}
+
+.scriptEdit {
+    width: 40vw;
+    height: 5vh;
+    margin-top: 2%;
+    align-items: space-between;
+    text-align: center;
+    justify-items: center;
+    font-size: 300%;
+}
+
+.scriptEdit h2 {
+    color: #2E3192
+}
+
+.inputsEdit {
+    width: 40vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 2%;
+    top: 20%;
+}
+
+.inputsEdit input {
+    margin: 2%;
+}
+
+.inputsEdit input[type=text],
+[type=password],
+[type=email] {
+    width: 35vw;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid green;
+}
+
+.buttonsEdit {
+    width: 40vw;
+    height: 5vh;
+    margin-top: 70%;
+    align-items: space-between;
+    text-align: center;
+}
+
+.containerRightRightEdit {
+    width: 20vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 75%;
+    top: 7.5%;
 }
